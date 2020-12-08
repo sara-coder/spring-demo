@@ -7,6 +7,11 @@
 <title>Student confirmation</title>
 </head>
 <body>
-Admission confirmed for ${student.firstName} ${student.lastName} from ${student.country}
+Admission confirmed for ${student.firstName} ${student.lastName} 
+<br><br>
+Country: ${student.country}
+<br><br>
+Favorite Language: ${student.favoriteLanguage}
+<br><br>
 </body>
 </html>
